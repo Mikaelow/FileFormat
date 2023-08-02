@@ -1,6 +1,6 @@
 from insert_into import insert_into
 
-with open('plik.txt','r') as open_file:
+with open(r'c:\Users\User\Desktop\programowanie\IdeaProjects\formatowanieTekstu\plik.txt','r') as open_file:
     zmienna = open_file.read()
 
 i = ''
