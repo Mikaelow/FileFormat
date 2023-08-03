@@ -6,7 +6,6 @@ with open(r'c:\Users\User\Desktop\programowanie\IdeaProjects\formatowanieTekstu\
 i = ''
 for lane in zmienna.splitlines():
      if lane.startswith('insert into'):
-        #
         lane_splited = lane.split(' ')
         index_of_table = lane_splited.index('into')+1
         name_of_table = lane_splited[index_of_table]
