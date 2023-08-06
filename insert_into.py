@@ -4,3 +4,10 @@ def insert_into(lane : str) ->str :
     new_line = new_line.replace('(','[')
     new_line = new_line.replace(')',']')
     print(new_line)
+
+def sec_insert_into(lane: str):
+    new_lane = lane.replace('|',',')
+    new_lane = '[' + new_lane[1:]
+    new_lane = new_lane[:-1]+']'
+    new_lane = new_lane.replace(' ','')
+    print(new_lane)

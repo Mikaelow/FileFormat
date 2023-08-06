@@ -1,4 +1,4 @@
-from insert_into import insert_into
+from insert_into import insert_into,sec_insert_into
 
 with open(r'c:\Users\User\Desktop\programowanie\IdeaProjects\formatowanieTekstu\plik.txt','r') as open_file:
     zmienna = open_file.read()
@@ -15,5 +15,7 @@ for lane in zmienna.splitlines():
             i = name_of_table
             print('\n'+i)
         insert_into(lane)
+     if lane.startswith('|'):
+        sec_insert_into(lane)
 
 
