@@ -1,7 +1,7 @@
-Create table If Not Exists Employees(emp_id int, event_day date, in_time int, out_time int)
-Truncate table Employees
-insert into Employees (emp_id, event_day, in_time, out_time) values ('1', '2020-11-28', '4', '32')
-insert into Employees (emp_id, event_day, in_time, out_time) values ('1', '2020-11-28', '55', '200')
-insert into Employees (emp_id, event_day, in_time, out_time) values ('1', '2020-12-3', '1', '42')
-insert into Employees (emp_id, event_day, in_time, out_time) values ('2', '2020-11-28', '3', '33')
-insert into Employees (emp_id, event_day, in_time, out_time) values ('2', '2020-12-9', '47', '74')
+Create table If Not Exists Activity (player_id int, device_id int, event_date date, games_played int)
+Truncate table Activity
+insert into Activity (player_id, device_id, event_date, games_played) values ('1', '2', '2016-03-01', '5')
+insert into Activity (player_id, device_id, event_date, games_played) values ('1', '2', '2016-05-02', '6')
+insert into Activity (player_id, device_id, event_date, games_played) values ('2', '3', '2017-06-25', '1')
+insert into Activity (player_id, device_id, event_date, games_played) values ('3', '1', '2016-03-02', '0')
+insert into Activity (player_id, device_id, event_date, games_played) values ('3', '4', '2018-07-03', '5')
