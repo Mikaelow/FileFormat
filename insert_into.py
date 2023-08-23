@@ -10,4 +10,4 @@ def sec_insert_into(lane: str):
     new_lane = '[' + new_lane[1:]
     new_lane = new_lane[:-1]+']'
     new_lane = new_lane.replace(' ','')
-    print(new_lane)
+    print(new_lane+',')
